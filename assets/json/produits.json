@@ -1,7 +1,124 @@
 {
     "products": [
         {
-            
+            "id" : "1001",
+            "name" : "",
+            "category" : "meubles",
+            "description" : "",
+            "price" : "",
+            "img" : ""
+        },
+        {
+            "id" : "1002",
+            "name" : "",
+            "category" : "meubles",
+            "description" : "",
+            "price" : "",
+            "img" : ""
+        },
+        {
+            "id" : "1003",
+            "name" : "",
+            "category" : "meubles",
+            "description" : "",
+            "price" : "",
+            "img" : ""
+        },
+        {
+            "id" : "1004",
+            "name" : "meubles",
+            "category" : "",
+            "description" : "",
+            "price" : "",
+            "img" : ""
+        },
+        {
+            "id" : "1005",
+            "name" : "meubles",
+            "category" : "",
+            "description" : "",
+            "price" : "",
+            "img" : ""
+        },
+        {
+            "id" : "1006",
+            "name" : "",
+            "category" : "luminaires",
+            "description" : "",
+            "price" : "",
+            "img" : ""
+        },
+        {
+            "id" : "1007",
+            "name" : "",
+            "category" : "luminaires",
+            "description" : "",
+            "price" : "",
+            "img" : ""
+        },
+        {
+            "id" : "1008",
+            "name" : "",
+            "category" : "luminaires",
+            "description" : "",
+            "price" : "",
+            "img" : ""
+        },
+        {
+            "id" : "1009",
+            "name" : "",
+            "category" : "luminaires",
+            "description" : "",
+            "price" : "",
+            "img" : ""
+        },
+        {
+            "id" : "1010",
+            "name" : "",
+            "category" : "luminaires",
+            "description" : "",
+            "price" : "",
+            "img" : ""
+        },
+        {
+            "id" : "1011",
+            "name" : "",
+            "category" : "jardin",
+            "description" : "",
+            "price" : "",
+            "img" : ""
+        },
+        {
+            "id" : "1012",
+            "name" : "",
+            "category" : "jardin",
+            "description" : "",
+            "price" : "",
+            "img" : ""
+        },
+        {
+            "id" : "1013",
+            "name" : "",
+            "category" : "jardin",
+            "description" : "",
+            "price" : "",
+            "img" : ""
+        },
+        {
+            "id" : "1014",
+            "name" : "",
+            "category" : "jardin",
+            "description" : "",
+            "price" : "",
+            "img" : ""
+        },
+        {
+            "id" : "1015",
+            "name" : "",
+            "category" : "jardin",
+            "description" : "",
+            "price" : "",
+            "img" : ""
         }
     ]
 }
