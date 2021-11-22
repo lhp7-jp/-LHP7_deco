@@ -2,123 +2,123 @@
     "products": [
         {
             "id" : "1001",
-            "name" : "",
+            "name" : "Table A Manger Marc Marbre/Metal Noir",
             "category" : "meubles",
-            "description" : "",
-            "price" : "",
-            "img" : ""
+            "description" : "Table A Manger Marc Marbre/Metal Noir diamétre:120cm,",
+            "price" : "639.00",
+            "img" : "15769.jpg"
         },
         {
             "id" : "1002",
-            "name" : "",
+            "name" : "Chaise",
             "category" : "meubles",
-            "description" : "",
-            "price" : "",
-            "img" : ""
+            "description" : "Chaise Charlotte Metal Or",
+            "price" : "218.00",
+            "img" : "96159.jpg"
         },
         {
             "id" : "1003",
-            "name" : "",
+            "name" : "Buffet",
             "category" : "meubles",
-            "description" : "",
-            "price" : "",
-            "img" : ""
+            "description" : "Buffet + 2 Paniers Bois/Verre Blanc",
+            "price" : "1699.00",
+            "img" : "82476.jpg"
         },
         {
             "id" : "1004",
-            "name" : "meubles",
-            "category" : "",
-            "description" : "",
-            "price" : "",
-            "img" : ""
+            "name" : "Armoire",
+            "category" : "meubles",
+            "description" : "Armoire 3 Portes + 4 Tiroirs Rotin Tisse Bois De Manguier Naturel",
+            "price" : "1485,00",
+            "img" : "91013.jpg"
         },
         {
             "id" : "1005",
-            "name" : "meubles",
-            "category" : "",
-            "description" : "",
-            "price" : "",
-            "img" : ""
+            "name" : "Bar",
+            "category" : "meubles",
+            "description" : " Bar Motocyclette 12 Verres 6 Bouteilles Metal/Bois De Manguier Gris Fonce/Naturel ",
+            "price" : "839.00",
+            "img" : "1504.jpg"
         },
         {
             "id" : "1006",
-            "name" : "",
+            "name" : "Lampe",
             "category" : "luminaires",
-            "description" : "",
-            "price" : "",
-            "img" : ""
+            "description" : "Lampe Champignon Boules Metal Brillant Blanc/Noir Large",
+            "price" : "74.99",
+            "img" : "17240.jpg"
         },
         {
             "id" : "1007",
-            "name" : "",
+            "name" : "Lampe Murale",
             "category" : "luminaires",
-            "description" : "",
-            "price" : "",
-            "img" : ""
+            "description" : "Lampe Murale Lounge Metal Noir",
+            "price" : "185.00",
+            "img" : "77966.jpg"
         },
         {
             "id" : "1008",
-            "name" : "",
+            "name" : "lustre",
             "category" : "luminaires",
-            "description" : "",
-            "price" : "",
-            "img" : ""
+            "description" : "Lustre Feuilles De Coco Acier Or",
+            "price" : "311.99",
+            "img" : "96491.jpg"
         },
         {
             "id" : "1009",
-            "name" : "",
+            "name" : "Lampe Suspendue",
             "category" : "luminaires",
-            "description" : "",
-            "price" : "",
-            "img" : ""
+            "description" : "Lampe Suspendue Metal Antique Marron",
+            "price" : "149.00",
+            "img" : "17247.jpg"
         },
         {
             "id" : "1010",
-            "name" : "",
+            "name" : "Lampadaire",
             "category" : "luminaires",
-            "description" : "",
-            "price" : "",
-            "img" : ""
+            "description" : "Lampe Evy Metal/Bois Noir/Naturel",
+            "price" : "184.00",
+            "img" : "15654.jpg"
         },
         {
             "id" : "1011",
-            "name" : "",
+            "name" : "Barbecue gaz Genesis",
             "category" : "jardin",
-            "description" : "",
-            "price" : "",
-            "img" : ""
+            "description" : "Barbecue gaz Genesis II E-410 GBS gris + plancha - WEBER",
+            "price" : "1349.00",
+            "img" : "barbecue-gaz-genesis-ii-e-410-gbs-gris-plancha-weber.jpg"
         },
         {
             "id" : "1012",
-            "name" : "",
+            "name" : "Plante d'extérieur",
             "category" : "jardin",
-            "description" : "",
-            "price" : "",
-            "img" : ""
+            "description" : "Camélia japonica - Nobilissima 8L - hauteur 50cm",
+            "price" : "49.99",
+            "img" : "camelia-claspot-etna-8l-50-.jpg"
         },
         {
             "id" : "1013",
-            "name" : "",
+            "name" : "Parasol excentré",
             "category" : "jardin",
-            "description" : "",
-            "price" : "",
-            "img" : ""
+            "description" : "Parasol excentré carré - Blanc",
+            "price" : "599.00",
+            "img" : "parasol-excentre-carre-blanc-desjardins.jpg"
         },
         {
             "id" : "1014",
-            "name" : "",
+            "name" : "Salon de jardin",
             "category" : "jardin",
-            "description" : "",
-            "price" : "",
-            "img" : ""
+            "description" : "Ensemble Matanza - DESJARDINS - 4 pièces - Structure aluminium - Tressage en résine",
+            "price" : "999.00",
+            "img" : "ensemble-matanza-desjardins.jpg"
         },
         {
             "id" : "1015",
-            "name" : "",
+            "name" : "lampe d'extérieure",
             "category" : "jardin",
-            "description" : "",
-            "price" : "",
-            "img" : ""
+            "description" : "Lanterne lumineuse d'extérieur noire classique - 35cm - 1LED",
+            "price" : "11.99",
+            "img" : "lanterne-lumineuse-d-exterieur-noire-classique-35cm-1led.jpg"
         }
     ]
 }
