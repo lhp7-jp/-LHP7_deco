@@ -11,9 +11,12 @@
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <script defer src="assets/js/script.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
-  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
 </head>
 
 <body style="margin-bottom: 80px">
@@ -37,24 +40,27 @@
     <div class="container-fluid py-1">
 
       <span class="navbar-brand text-white logo display-1">Home</span>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars text-white"></i>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul id="category" class="navbar-nav">
 
           <li class="nav-item d-lg-none d-block">
-            <a class="nav-link text-secondary fs-7 listHover" href=""><i class="fas fa-cart-arrow-down text-secondary"></i> MON PANIER</a>
+            <a class="nav-link text-secondary fs-7 listHover" href=""><i
+                class="fas fa-cart-arrow-down text-secondary"></i> MON PANIER</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary activeListNav fs-7 ms-lg-5 listHover" aria-current="page" href="">Meubles</a>
+            <a class="nav-link text-secondary activeListNav fs-7 ms-lg-5 listHover" aria-current="page"
+              data-category="meubles" href="">Meubles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary fs-7 ms-lg-5 listHover" href="">Luminaires</a>
+            <a class="nav-link text-secondary fs-7 ms-lg-5 listHover" href="" data-category="luminaires">Luminaires</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary fs-7 ms-lg-5 listHover" href="">Déco Jardin</a>
+            <a class="nav-link text-secondary fs-7 ms-lg-5 listHover" href="" data-category="jardin">Déco Jardin</a>
           </li>
 
         </ul>
@@ -63,52 +69,28 @@
   </nav>
 
 
-  <div class="container">
-
-    <p class="mt-3">Home > Catégories > <a class="filAriane" href="">Meubles</a></p>
-    <hr>
-    <h1 class="text-center">Nos Meubles</h1>
-
+  <div class="container-fluid">
 
     <div class="row justify-content-between m-0 p-0">
+      <p class="mt-3">Home > Catégories > <a class="filAriane" href="">Meubles</a></p>
+      <hr>
+      <h1 class="text-center">Nos Meubles</h1>
+    </div>
 
-      <div class="container-fluid">
-        <div class="row text-center">
-          <div class="col-4 text-center card-body">
-            <img src="assets/img/1504.jpg" class="rounded mx-auto d-block img-fluid img-thumbnail" alt="cards-images">
-            <h5 class="card-title">Bar</h5>
-            <p class="card-text">Bar Motocyclette 12 Verres 6 Bouteilles Metal/Bois De Manguier Gris Fonce/Naturel.</p>
-            <a id="price" href="#" class="btn btn-secondary m-2">839.00€</a>
-            <a href="#" class="btn btn-primary">Ajout au panier</a>
-          </div>
-          <div class="col-4 text-center card-body">
-            <img src="assets/img/1504.jpg" class="rounded mx-auto d-block img-fluid img-thumbnail" alt="cards-images">
-            <h5 class="card-title">Bar</h5>
-            <p class="card-text">Bar Motocyclette 12 Verres 6 Bouteilles Metal/Bois De Manguier Gris Fonce/Naturel.</p>
-            <a id="price" href="#" class="btn btn-secondary m-2">839.00€</a>
-            <a href="#" class="btn btn-primary">Ajout au panier</a>
-          </div>
-          <div class="col-4 text-center card-body">
-            <img src="assets/img/1504.jpg" class="rounded mx-auto d-block img-fluid img-thumbnail" alt="cards-images">
-            <h5 class="card-title">Bar</h5>
-            <p class="card-text">Bar Motocyclette 12 Verres 6 Bouteilles Metal/Bois De Manguier Gris Fonce/Naturel.</p>
-            <a id="price" href="#" class="btn btn-secondary m-2">839.00€</a>
-            <a href="#" class="btn btn-primary">Ajout au panier</a>
-          </div>
-        </div>
-      
-      </div>
+
+    <div id="listProducts" class="row text-center">
+
+       
+    </div>
 
     </div>
 
 
 
-  </div>
-
-  <footer class="position-fixed bottom-0 bg-dark w-100">
-    <p class="text-center text-white logo fs-5 m-0 pt-1">Art & Deco - Since 1977</p>
-  </footer>
-
+      <footer class="position-fixed bottom-0 bg-dark w-100">
+        <p class="text-center text-white logo fs-5 m-0 pt-1">Art & Deco - Since 1977</p>
+      </footer>
+ 
 
 
   <!--MODAL PANIER-->
@@ -119,7 +101,7 @@
           <h5 class="modal-title" id="exampleModalLabel">Récapitulatif de votre panier</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
+        <div id="contentModal" class="modal-body">
           ...
         </div>
         <div class="modal-footer">
@@ -136,11 +118,11 @@
 
 
 <!-- Ajout CDN Fontawesome -->
-      <!--
+<!--
         ICI CARD
       -->
 
-      <!-- <div class="card col-lg-3 mb-4 px-3" style="min-width: 32%;">
+<!-- <div class="card col-lg-3 mb-4 px-3" style="min-width: 32%;">
         <img src="assets/img/1504.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -173,4 +155,4 @@
         </div>
       </div> -->
 
-      <!--FIN CARDS-->
+<!--FIN CARDS-->
