@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+
+.activeListNav{
+    color : white!important;
+}
+
+.logo{
+    font-family: 'Carattere', cursive;
+    font-size: 2rem;
+}
+
+.listHover:hover{
+    color: white!important;
+}
+
+.filAriane:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.filAriane{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
