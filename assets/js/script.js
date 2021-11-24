@@ -53,6 +53,7 @@ listProducts.addEventListener("click", e => {
                                 <td><i class="text-primary fas fa-times" data-idtr="line-${e.target.dataset.ref}""></i></td>
                             `
             contentModal.appendChild(tr)
+            displayMessage('Votre article a été ajouté au panier')
             totalCaddie()
 
         }else {
@@ -62,6 +63,7 @@ listProducts.addEventListener("click", e => {
             document.getElementById(`qte-${e.target.id}`).value = qty
             document.getElementById(`price-${e.target.id}`).textContent = Number(priceCurrent * qty).toFixed(2) + " €"
             document.getElementById(`price-${e.target.id}`).dataset.priceqte = Number(priceCurrent * qty).toFixed(2)
+            displayMessage('La quantité de votre article a été modifiée')
             totalCaddie()
         }
     }
@@ -80,8 +82,8 @@ tablePrice.addEventListener("change", e => {
 tablePrice.addEventListener("click", e => {
     if (e.target.nodeName == "I") {
         arrayPanier.splice(arrayPanier.indexOf(e.target.dataset.idtr.split("-").pop()), 1)
-        let childRemove = document.getElementById(e.target.dataset.idtr)
-        contentModal.removeChild(childRemove)
+        contentModal.removeChild(document.getElementById(e.target.dataset.idtr))
+        displayMessage("L'article a été supprimé de votre panier")
         totalCaddie()
     }
 })
@@ -93,4 +95,13 @@ function totalCaddie() {
         totalCaddie += Number(elt.dataset.priceqte)
     })
     total.textContent = Number(totalCaddie).toFixed(2)
+}
+
+// Fonction permettant d'afficher un message de confirmation à l'utilisateur
+function displayMessage(message) {
+    window.innerWidth < 450 ? infoCaddie.style.width = '70vw' : infoCaddie.style.width = '30vw'
+    infoCaddie.style.top = `${Math.round((window.innerHeight / 2) + (window.scrollY))}px`
+    infoCaddie.textContent = message
+    infoCaddie.classList.replace("d-none", "d-block")
+    setTimeout(function () {infoCaddie.classList.replace("d-block", "d-none")}, 1500)
 }
